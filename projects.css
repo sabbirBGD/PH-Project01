@@ -1,0 +1,291 @@
+/*Buttons*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/*Button*/
+.btn-primary {
+  background: #45c87c;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/*NavBar*/
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left img {
+  height: 36px;
+}
+
+.nav-center a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #242323;
+  font-weight: 500;
+}
+
+/*Sections*/
+.Sections {
+  position: relative;
+  min-height: 90vh;
+  background: url("images/hero-bg.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Sections-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(7, 42, 74, 0.65);
+}
+
+.Sections-content {
+  position: relative;
+  max-width: 760px;
+  padding: 0 20px;
+  color: #ffffff;
+}
+
+/* badge */
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #eaf6ef;
+  color: #209250;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Sections heading */
+.Sections-content h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.Sections-content h1 span {
+  color: #209250;
+}
+
+/* Sections paragraph */
+.Sections-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 32px;
+}
+
+/*Sections-buttons*/
+.Section-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.Section-buttons img {
+  width: 16px;
+  margin-left: 6px;
+}
+
+/*ProblemSections*/
+.ProblemSections {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.subtitle {
+  color: #6b7280;
+}
+
+.ProblemSections-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.card {
+  background: #fff;
+  padding: 35px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.icon-circle {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: #ff5a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle img {
+  width: 26px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/*SolutionSection*/
+.SolutionSection {
+  display: flex;
+  gap: 60px;
+  padding: 80px 10%;
+  align-items: center;
+}
+
+.SolutionSection-left img {
+  max-width: 100%;
+}
+
+.SolutionSection-right p {
+  margin: 15px 0 20px;
+  color: #6b7280;
+}
+
+.SolutionSection ul {
+  padding: 0;
+}
+
+.SolutionSection ul li {
+  list-style: none;
+  margin: 12px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/*CallToAction*/
+.CallToAction {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.CallToAction-box {
+  background: #f6f3ee;
+  border-radius: 16px;
+  padding: 60px 20px;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.CallToAction-box h1 {
+  margin-bottom: 12px;
+  color: #0f2a44;
+}
+
+.CallToAction-box p {
+  color: #6b7280;
+}
+
+.CallToAction-btn {
+  margin-top: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.CallToAction-btn img {
+  width: 16px;
+}
+
+.CallToAction-note {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #7a8794;
+}
+
+/*Footer*/
+.footer {
+  background: #061c32;
+  color: white;
+  padding: 50px 10% 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.social:hover {
+  background: #209250;
+  border-color: #209250;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  opacity: 0.7;
+}
