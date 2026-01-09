@@ -289,3 +289,26 @@
   font-size: 13px;
   opacity: 0.7;
 }
+
+
+/* ===== BUTTON HOVER EFFECT ===== */
+
+/* Primary button hover */
+.btn-primary {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #209250; /* darker green */
+  transform: translateY(-2px); /* slight lift */
+}
+
+/* Outline button hover */
+.btn-outline {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #ffffff;
+  color: #209250;
+}
